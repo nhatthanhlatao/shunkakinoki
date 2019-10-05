@@ -1,6 +1,6 @@
 # Labels
 
-## General
+## Categories
 
 1. potential
 2. work
