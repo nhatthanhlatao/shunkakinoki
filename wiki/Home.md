@@ -1,3 +1,3 @@
 # Home
 
-- [201910](201910.md)
+- [201910](https://github.com/shunkakinoki/shunkakinoki/wiki/201910)
