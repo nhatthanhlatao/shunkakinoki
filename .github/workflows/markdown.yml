@@ -1,4 +1,4 @@
-name: Run Markdown Linting
+name: Run Markdown Lint
 on:
   push:
     paths:
