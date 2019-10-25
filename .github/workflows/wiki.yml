@@ -11,7 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Upload Release Notes to Wiki
-        uses: docker://decathlon/wiki-page-creator-action:latest
         env:
           ACTION_MAIL: shunkakinoki@gmail.com
           ACTION_NAME: shunkakinoki
