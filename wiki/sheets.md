@@ -1,3 +1,0 @@
-# Sheets
-
-Initial Google Sheets
