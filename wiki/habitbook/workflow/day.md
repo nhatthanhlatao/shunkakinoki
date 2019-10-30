@@ -1,18 +1,16 @@
-# Day Workflow Habit
+# Workflow -Day-
 
 ## Objective
 
-What I need to do for the day to conquer my dream is defined as below.
+Maximize growth for the particular day.
 
-## Background
+## Flow
 
-I have let myself down.
-I have let my family down.
-I have let the whold world down upon me.
+1. Define Hours of the day in Calendar
+2. Track and quantify performance in Execution
+3. Reflect & Strategy in Shunblog
 
-I NEED TO CONQUER MYSELF, STARTING FROM THE HABIT WORKFLOW OF THE DAY IN ORDER TO OBLITERATE THE GALAXY !!!
-
-## Workflow
+## Milestone
 
 - Calendar
 - Execution
