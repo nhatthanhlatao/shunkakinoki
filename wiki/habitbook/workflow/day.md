@@ -12,6 +12,6 @@ Maximize growth for the particular day.
 
 ## Milestone
 
-- Calendar
-- Execution
-- Shunblog
+- Calendar -> Define all in day
+- Execution ->
+- Shunblog -> Complete designated assignments

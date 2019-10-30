@@ -12,6 +12,6 @@ End the Day by putting a break on the day
 
 ## Milestone
 
-1. Phone is charged on the table
-2. Meditation for 30 seconds
-3. Light is off
+1. Phone -> Charged on the table
+2. Meditation -> 30 seconds
+3. Light -> Off
