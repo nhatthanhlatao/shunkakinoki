@@ -10,21 +10,21 @@
 
 #### 1. potential/ai
 
-#### 2. potential/tu
+#### 2. potential/life
 
-#### 3. potential/life
+#### 3. potential/study
 
 ### work
 
-#### 1. work/foundation
+#### 1. work/entrepreneur
 
-#### 2. work/skill
+#### 2. work/foundation
 
-#### 3. work/endeavor
+#### 3. work/skill
 
 ### being
 
-#### 1. being/complacency
+#### 1. being/endeavor
 
 #### 2. being/relax
 
