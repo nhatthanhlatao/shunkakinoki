@@ -28,8 +28,10 @@
         "SHUNMIND",
         "TICKTICK",
         "ZENHUB",
+        "atcoder",
         "cupertino",
+        "hackerrank",
+        "leetcode",
         "shunkakinoki"
     ],
-    "cquery.cacheDirectory": "${workspaceFolder}/.vscode/cquery_cached_index/"
 }
