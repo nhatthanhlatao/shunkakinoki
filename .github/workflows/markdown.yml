@@ -14,10 +14,21 @@ jobs:
         uses: actions/setup-ruby@master
         with:
           ruby-version: 2.6
-      - name: Set Up Markdown with Bundler
+      - name: Cache pipenv
+        id: cache
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            gem-
+      - name: Install dependencies with bundler
+        if: steps.cache.outputs.cache-hit != 'true'
         run: |
           gem install bundler
           bundle install
+      - name: Run Markdown Lint
+        run: |
           bundle exec mdl -s style.rb -wg .
       - name: Label on PR
         uses: awact/label-action@master
