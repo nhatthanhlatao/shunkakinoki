@@ -16,7 +16,7 @@ jobs:
           ruby-version: 2.6
       - name: Cache bundler
         id: cache
-        uses: actions/cache@v1
+        uses: actions/cache@preview
         with:
           path: vendor/bundle
           key: gem-${{ hashFiles('**/Gemfile.lock') }}
