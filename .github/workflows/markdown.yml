@@ -26,7 +26,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           gem install bundler
-          bundle install
+          bundle install --deployment
       - name: Run Markdown Lint
         run: |
           bundle exec mdl -s style.rb -wg .
