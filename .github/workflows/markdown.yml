@@ -1,5 +1,12 @@
 name: Run Markdown Lint
 on:
+  push:
+    branches:
+      - master
+    paths:
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "**.md"
   pull_request:
     paths:
       - "Gemfile"
