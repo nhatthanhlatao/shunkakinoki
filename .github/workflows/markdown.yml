@@ -14,7 +14,7 @@ jobs:
         uses: actions/setup-ruby@master
         with:
           ruby-version: 2.6
-      - name: Cache pipenv
+      - name: Cache bundler
         id: cache
         uses: actions/cache@v1
         with:
