@@ -1,7 +1,7 @@
 name: Run Markdown Lint
 on:
   push:
-    branches: 
+    branches:
       - master
     paths:
       - "Gemfile"
