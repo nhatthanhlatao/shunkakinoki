@@ -20,7 +20,7 @@ jobs:
       - name: Set up Ruby
         uses: actions/setup-ruby@master
         with:
-          ruby-version: 2.6
+          ruby-version: '2.x'
       - name: Cache bundler
         id: cache
         uses: actions/cache@v1
