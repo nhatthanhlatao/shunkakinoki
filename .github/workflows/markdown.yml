@@ -1,17 +1,5 @@
 name: Markdown
-on:
-  push:
-    branches:
-      - master
-    paths:
-      - "Gemfile"
-      - "Gemfile.lock"
-      - "**.md"
-  pull_request:
-    paths:
-      - "Gemfile"
-      - "Gemfile.lock"
-      - "**.md"
+on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest

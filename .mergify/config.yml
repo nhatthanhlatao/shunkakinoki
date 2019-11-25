@@ -1,35 +1,5 @@
 pull_request_rules:
-  - name: Automatic Merge for shunkakinoki Pull Requests
-    conditions:
-      - base=master
-    actions:
-      delete_head_branch:
-        force: true
-      merge:
-        method: merge
-        strict: true
-
-  - name: Automatic Merge for gitHub-actions[bot] Pull Requests
-    conditions:
-      - base=master
-    actions:
-      delete_head_branch:
-        force: true
-      merge:
-        method: merge
-        strict: true
-
-  - name: Automatic Merge for dependabot[bot] Pull Requests
-    conditions:
-      - base=master
-    actions:
-      delete_head_branch:
-        force: true
-      merge:
-        method: merge
-        strict: true
-
-  - name: Automatic Merge for dependabot-preview[bot] Pull Requests
+  - name: Automatic Merge for Pull Requests
     conditions:
       - base=master
     actions:
