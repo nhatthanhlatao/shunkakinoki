@@ -18,7 +18,6 @@ jobs:
           restore-keys: |
             gem-
       - name: Install dependencies with bundler
-        if: steps.cache.outputs.cache-hit != 'true'
         run: |
           gem install bundler --no-document
           bundle config path ./vendor/bundle
