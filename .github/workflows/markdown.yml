@@ -15,19 +15,21 @@ jobs:
         uses: actions/setup-ruby@master
         with:
           ruby-version: '2.x'
+      - name: Install bundler
+        run: |
+          gem install bundler
       - name: Cache bundler
         id: cache
         uses: actions/cache@v1
         with:
-          path: ./vendor/bundle
+          path: vendor/bundle
           key: gem-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             gem-
       - name: Install dependencies with bundler
-        if: steps.cache.outputs.cache-hit != 'true'
+        # if: steps.cache.outputs.cache-hit != 'true'
         run: |
-          gem install bundler --no-document
-          bundle config path ./vendor/bundle
+          bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3 --deployment
       - name: Run Markdown Lint
         run: |
