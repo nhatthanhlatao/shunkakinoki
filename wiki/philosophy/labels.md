@@ -8,7 +8,7 @@
 
 ### potential
 
-#### 1. potential/ai
+#### 1. potential/core
 
 #### 2. potential/life
 
