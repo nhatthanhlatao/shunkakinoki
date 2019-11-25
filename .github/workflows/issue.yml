@@ -4,7 +4,6 @@ on:
     types: [opened]
 jobs:
   assign:
-    name: Assign Author to Issue
     runs-on: ubuntu-latest
     steps:
       - uses: technote-space/assign-author@v1
