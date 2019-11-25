@@ -37,8 +37,3 @@ jobs:
       - name: Run Markdown Lint
         run: |
           bundle exec mdl -s style.rb -wg .
-      - name: Label on PR
-        uses: awact/label-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ADD_LABEL: "gha-markdown"
