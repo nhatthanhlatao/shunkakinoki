@@ -13,5 +13,5 @@ Become the Best Healthy Version of Myself
 ## Milestone
 
 - Run for 6km
-- Shoot Around the World
+- Shoot Around the World (Max 3 Tries)
 - 3 min Pushups
