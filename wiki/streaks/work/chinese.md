@@ -2,7 +2,7 @@
 
 ## Objective
 
-Become truly trilingual with mastering Chinese
+Become Truly Trilingual with Mastering Chinese
 
 ## Flow
 

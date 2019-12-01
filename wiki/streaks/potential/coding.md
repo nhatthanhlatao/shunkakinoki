@@ -2,7 +2,7 @@
 
 ## Objective
 
-Code efficiently & productively & smartly
+Code Efficiently & Productively & Smartly
 
 ## Flow
 
