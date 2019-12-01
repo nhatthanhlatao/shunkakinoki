@@ -7,11 +7,11 @@ Maximize growth for the particular day.
 ## Flow
 
 1. Define Hours of the day in Calendar
-2. Track and quantify performance in Execution
-3. Reflect & Strategy in Shunblog
+2. Track Performance in Quantification
+3. Reflect & Strategy & Win in Shunblog
 
 ## Milestone
 
 - Calendar -> Define all in day
-- Execution -> Benchmark, Execution & Milestone
+- Quantification -> Benchmark, Execution & Milestone
 - Shunblog -> Complete designated assignments
