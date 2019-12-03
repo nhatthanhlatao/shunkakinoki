@@ -12,6 +12,6 @@ Code Efficiently & Productively & Smartly
 
 ## Milestone
 
+- algorithm (3 problems)
 - atcoder (3 problems)
-- leetcode (1 problem)
 - hackerrank (3 problems)
