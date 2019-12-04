@@ -2,8 +2,10 @@
   <img src="assets/shunkakinoki.png">
 </p>
 
-[![Build Status](https://github.com/shunkakinoki/shunkakinoki/workflows/Run%20Markdown%20Lint/badge.svg)](https://github.com/shunkakinoki/shunkakinoki/actions)
-[![Commit Activity](https://img.shields.io/github/commit-activity/m/shunkakinoki/shunkakinoki)](https://github.com/shunkakinoki/shunkakinoki)
-[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
+<div align="center">
 
-# shunkakinoki
+[![forthebadge](https://forthebadge.com/images/badges/compatibility-blackberry.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/compatibility-club-penguin.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/compatibility-pc-load-letter.svg)](https://forthebadge.com)
+
+</div>
