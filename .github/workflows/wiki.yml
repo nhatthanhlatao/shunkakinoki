@@ -9,9 +9,9 @@ jobs:
   release-notes:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v1
       - name: Upload Release Notes to Wiki
-        uses: awact/wiki-action@master
+        uses: awact/wiki-action@0.1.0
         env:
           ACTION_MAIL: shunkakinoki@gmail.com
           ACTION_NAME: shunkakinoki
