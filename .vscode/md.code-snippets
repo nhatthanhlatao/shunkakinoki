@@ -1,0 +1,10 @@
+{
+    "Book Markdown Template": {
+        "scope": "book",
+        "prefix": "book",
+        "body": [
+            "#$0",
+        ],
+        "description": "Book Markdown Template",
+    },
+}
