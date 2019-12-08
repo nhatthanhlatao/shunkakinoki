@@ -12,6 +12,6 @@ Maximize growth for the particular day.
 
 ## Milestone
 
-- Calendar -> Define all in day
+- Calendar -> Define All in day
+- Priority -> Plan 3 Subjects Throughout the Day
 - Quantification -> Benchmark, Execution & Milestone
-- Shunblog -> Complete designated assignments
