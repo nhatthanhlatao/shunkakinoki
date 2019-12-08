@@ -1,14 +1,14 @@
-# Bad Routine -Pomodoro-
+# Bad Routine -Relax-
 
 ## Objective
 
-Extract the Most Performance Out of Each 30 Min
+Max Relax Time is 10 Min
 
 ## Flow
 
 1. All-In in the Moment
-2. No Distractions
-3. Break for 5,5,5,15
+2. Do Exercises During Relax Time
+3. Max Relax Time is 10 Min
 
 ## Milestone
 

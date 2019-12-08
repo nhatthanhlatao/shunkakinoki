@@ -1,4 +1,4 @@
-# Being Routine -Endeavor-
+# Being Routine b/e -Endeavor-
 
 ## Objective
 
