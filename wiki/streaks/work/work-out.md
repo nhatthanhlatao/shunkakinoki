@@ -1,4 +1,4 @@
-# Being Routine w/f -Work Out-
+# w/f -Work Out-
 
 ## Objective
 
