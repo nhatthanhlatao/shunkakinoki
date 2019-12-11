@@ -1,4 +1,4 @@
-# Potential Routine p/l -Life Mission-
+# p/l -Life Mission-
 
 ## Objective
 

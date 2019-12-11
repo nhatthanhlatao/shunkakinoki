@@ -1,4 +1,4 @@
-# Potential Routine p/s -Chinese-
+# p/s -Chinese-
 
 ## Objective
 

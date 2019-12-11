@@ -1,4 +1,4 @@
-# Being Routine w/f -Wake Up-
+# w/f -Wake Up-
 
 ## Objective
 

@@ -1,4 +1,4 @@
-# Bad Routine -Mindset-
+# Past -Mindset-
 
 ## Objective
 
