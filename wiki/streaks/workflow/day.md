@@ -8,7 +8,7 @@ Maximize growth for the particular day.
 
 1. Define Hours of the day in Calendar
 2. Track Performance in Quantification
-3. Reflect & Strategy & Win in Shunblog
+3. Reflect & Strategy & Win in BLOG
 
 ## Milestone
 
