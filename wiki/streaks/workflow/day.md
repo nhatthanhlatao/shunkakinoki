@@ -2,16 +2,16 @@
 
 ## Objective
 
-Maximize growth for the particular day.
+Maximize Growth for the Particular Day.
 
 ## Flow
 
-1. Define Hours of the day in Calendar
-2. Track Performance in Quantification
+1. Define Hours of the Day in Calendar
+2. Track Performance in Metrics
 3. Reflect & Strategy & Win in JOURNAL
 
 ## Milestone
 
-- Calendar -> Define All in day
-- Priority -> Plan 3 Subjects Throughout the Day
-- Quantification -> Benchmark, Execution & Milestone
+- Calendar -> Define All in Day
+- OKR -> Plan 3 Subjects Throughout the Day
+- Quantification -> BCM, EXE, OKR
