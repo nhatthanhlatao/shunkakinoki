@@ -1,14 +1,14 @@
-# b/r -No Bad Relax-
+# b/r -Meditation-
 
 ## Objective
 
-Max Relax Time is 10 Min
+Meditation for 3 Min
 
 ## Flow
 
 1. All-In in the Moment
-2. Do Exercises During Relax Time
-3. Max Relax Time is 10 Min
+2. Keep the Mindset
+3. Reset the Day
 
 ## Milestone
 
