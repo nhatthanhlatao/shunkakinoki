@@ -6,12 +6,12 @@ Maximize Concentration For Efficiency
 
 ## Flow
 
-1. Maximize The Quality of Moment
-2. Get the Most Out of the Day
-3. Envision True Greatness
+1. Absorb 3 Minutes of Sunlight Every Day
+2. Take Caffeine In The Morning If Possible
+3. Smile For 3 Minutes Straight
 
 ## Milestone
 
-- Absorb 3 Minutes of Sunlight Every Day
-- Take Caffeine In The Morning If Possible
-- Smile For 3 Minutes Straight
+- Maximize The Quality of Moment
+- Get the Most Out of the Day
+- Envision True Greatness
