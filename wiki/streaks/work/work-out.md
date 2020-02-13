@@ -6,12 +6,12 @@ Become the Best Healthy Version of Myself
 
 ## Flow
 
-- Win Against Myself
-- Stay Healthy for Body and Mind
-- Harder, Better, Faster, Stronger
+1. Run for 6km
+2. 3 min Pushups & Situps
+3. 3 min Interval 5:00-6:00
 
 ## Milestone
 
-- Run for 6km
-- Shoot Around the World (Max 3 Tries)
-- 3 min Pushups
+- Win Against Myself
+- Stay Healthy for Body and Mind
+- Harder, Better, Faster, Stronger
