@@ -9,3 +9,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/compatibility-pc-load-letter.svg)](https://forthebadge.com)
 
 </div>
+
+- [blog](https://github.com/shunkakinoki/blog)
+- [ja-blog](https://github.com/shunkakinoki/ja-blog)
+- [template-blog](https://github.com/shunkakinoki/template-blog)
