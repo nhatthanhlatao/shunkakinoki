@@ -6,12 +6,12 @@ Minimize Complacency Towards Life Mission
 
 ## Flow
 
-1. Merely A Distraction Towards My Life Mission
-2. Control My Body, Desire, and Emotion
-3. Don't Waste Time
+1. 3 Times Each After 12:00 AM/PM
+2. No Touching At All Times
+3. Take 3 Deep Breaths When Feeling The Urge
 
 ## Milestone
 
-- 3 Times Each After 12:00 AM/PM
-- No Touching At All Times
-- Take 3 Deep Breaths When Feeling The Urge
+- Merely A Distraction Towards My Life Mission
+- Control My Body, Desire, and Emotion
+- Don't Waste Time
