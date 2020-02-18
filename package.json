@@ -9,13 +9,13 @@
     "url": "https://github.com/shunkakinoki/shunkakinoki.git"
   },
   "scripts": {
-    "cm": "git-cz",
-    "commit": "git-cz",
     "test": "yarn lint && yarn release-test",
     "release": "semantic-release",
     "release-test": "semantic-release -d",
-    "lint": "eclint check $(git ls-files)",
-    "fix": "eclint fix $(git ls-files)"
+    "lint": "yarn eclint-check",
+    "fix": "yarn eclint-fix",
+    "eclint-check": "eclint check $(git ls-files)",
+    "eclint-fix": "eclint fix $(git ls-files)"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.0",
