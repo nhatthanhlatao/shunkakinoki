@@ -2,6 +2,7 @@
   "name": "shunkakinoki",
   "author": "Shun Kakinoki",
   "license": "MIT",
+  "version": "1.2.0",
   "homepage": "https://github.com/shunkakinoki/shunkakinoki",
   "repository": {
     "type": "git",
@@ -20,6 +21,5 @@
     "@semantic-release/exec": "^5.0.0",
     "eclint": "^2.8.1",
     "semantic-release": "^17.0.4"
-  },
-  "version": "1.2.0"
+  }
 }
