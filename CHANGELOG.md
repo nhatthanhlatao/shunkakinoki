@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/shunkakinoki/shunkakinoki/compare/v1.4.1...v1.5.0) (2020-02-18)
+
+
+### Features
+
+* 🎸 change to img ([16c3f6f](https://github.com/shunkakinoki/shunkakinoki/commit/16c3f6f621162433d232b6451af0bf6e1d3c75dc))
+
 ## [1.4.1](https://github.com/shunkakinoki/shunkakinoki/compare/v1.4.0...v1.4.1) (2020-02-18)
 
 
