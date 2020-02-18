@@ -5,7 +5,7 @@
   "homepage": "https://github.com/shunkakinoki/shunkakinoki",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shunkakinoki/journal.git"
+    "url": "https://github.com/shunkakinoki/shunkakinoki.git"
   },
   "scripts": {
     "test": "yarn run lint && yarn run release-test",
