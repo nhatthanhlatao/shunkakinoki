@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/shunkakinoki/shunkakinoki/compare/v1.5.1...v1.5.2) (2020-02-19)
+
+
+### Bug Fixes
+
+* 🐛 bug ([733e515](https://github.com/shunkakinoki/shunkakinoki/commit/733e5153336fe15efe72ef201738e0860b3b6a0c))
+
 # [1.5.0](https://github.com/shunkakinoki/shunkakinoki/compare/v1.4.1...v1.5.0) (2020-02-18)
 
 
