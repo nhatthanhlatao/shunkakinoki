@@ -1,3 +1,10 @@
+## [1.5.4](https://github.com/shunkakinoki/shunkakinoki/compare/v1.5.3...v1.5.4) (2020-02-19)
+
+
+### Bug Fixes
+
+* 🐛 add bvm ([00c115c](https://github.com/shunkakinoki/shunkakinoki/commit/00c115cc52c8a556d26c46d2a1ae42d64e9cfd9a))
+
 ## [1.5.3](https://github.com/shunkakinoki/shunkakinoki/compare/v1.5.2...v1.5.3) (2020-02-19)
 
 
