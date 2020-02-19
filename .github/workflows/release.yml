@@ -33,3 +33,5 @@ jobs:
         uses: peter-evans/create-pull-request@v2
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
+        env:
+          HUSKY_SKIP_HOOKS: 1
