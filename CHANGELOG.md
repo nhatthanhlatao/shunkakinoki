@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/shunkakinoki/shunkakinoki/compare/v1.6.2...v2.0.0) (2020-02-20)
+
+
+### Features
+
+* 🎸 0221 ([aa010fc](https://github.com/shunkakinoki/shunkakinoki/commit/aa010fc5e30af3d6e5008a2ce88577ccaf3a9ca1))
+
+
+### BREAKING CHANGES
+
+* 🧨 START
+
 ## [1.6.2](https://github.com/shunkakinoki/shunkakinoki/compare/v1.6.1...v1.6.2) (2020-02-20)
 
 
