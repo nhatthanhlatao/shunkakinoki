@@ -1,3 +1,11 @@
+# [2.1.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.0.1...v2.1.0) (2020-02-23)
+
+
+### Features
+
+* 🎸 gatsby ([f0da3ec](https://github.com/shunkakinoki/shunkakinoki/commit/f0da3ec0be2bd095a8f30335fd0d4b44a0789b62))
+* 🎸 markdown ([f31247b](https://github.com/shunkakinoki/shunkakinoki/commit/f31247b19b2cfaffba72705807a1f1a2328901b8))
+
 ## [1.6.2](https://github.com/shunkakinoki/shunkakinoki/compare/v1.6.1...v1.6.2) (2020-02-20)
 
 
