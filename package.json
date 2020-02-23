@@ -2,13 +2,16 @@
   "name": "shunkakinoki",
   "author": "Shun Kakinoki",
   "license": "MIT",
-  "version": "2.0.1",
+  "version": "1.6.2",
   "homepage": "https://github.com/shunkakinoki/shunkakinoki",
   "repository": {
     "type": "git",
     "url": "https://github.com/shunkakinoki/shunkakinoki.git"
   },
   "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "clean": "gatsby clean",
     "test": "yarn lint && yarn release-test",
     "release": "semantic-release",
     "release-test": "semantic-release -d",
@@ -16,6 +19,23 @@
     "fix": "yarn eclint-fix",
     "eclint-check": "eclint check $(git ls-files)",
     "eclint-fix": "eclint fix $(git ls-files)"
+  },
+  "dependencies": {
+    "@narative/gatsby-theme-novela": "^0.*",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-unicorn": "^16.1.1",
+    "gatsby": "^2.19.17",
+    "gatsby-plugin-google-analytics": "^2.1.35",
+    "gatsby-plugin-i18n": "^1.0.1",
+    "gatsby-plugin-mailchimp": "^5.1.2",
+    "gatsby-plugin-manifest": "^2.2.41",
+    "prettier": "^1.18.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.0",
@@ -26,9 +46,37 @@
     "husky": "^4.2.3",
     "semantic-release": "^17.0.4"
   },
+  "eslintConfig": {
+    "extends": [
+      "airbnb-base",
+      "plugin:prettier/recommended",
+      "plugin:unicorn/recommended"
+    ],
+    "env": {
+      "browser": false
+    },
+    "overrides": [],
+    "plugins": [],
+    "rules": {
+      "unicorn/no-abusive-eslint-disable": 0,
+      "unicorn/filename-case": [
+        "error",
+        {
+          "cases": {
+            "camelCase": true,
+            "kebabCase": true
+          }
+        }
+      ]
+    }
+  },
   "husky": {
     "hooks": {
       "prepare-commit-msg": "exec < /dev/tty && git-cz --hook || true"
     }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
   }
 }
