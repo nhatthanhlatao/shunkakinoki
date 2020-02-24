@@ -1,3 +1,10 @@
+# [2.8.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.7.0...v2.8.0) (2020-02-24)
+
+
+### Features
+
+* 🎸 version ([69b69b3](https://github.com/shunkakinoki/shunkakinoki/commit/69b69b3912e1f728d790ba6d34a31db60199e4f8))
+
 # [2.7.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.6.1...v2.7.0) (2020-02-24)
 
 
