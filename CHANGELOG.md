@@ -1,3 +1,10 @@
+## [2.5.1](https://github.com/shunkakinoki/shunkakinoki/compare/v2.5.0...v2.5.1) (2020-02-24)
+
+
+### Bug Fixes
+
+* **deps:** bump mdl from 0.8.0 to 0.9.0 ([caf9457](https://github.com/shunkakinoki/shunkakinoki/commit/caf945702e7e092802ef190f9b97630372ef6f9b))
+
 # [2.5.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.4.0...v2.5.0) (2020-02-24)
 
 
