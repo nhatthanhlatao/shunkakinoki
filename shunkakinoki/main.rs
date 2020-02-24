@@ -1,4 +1,4 @@
-use clap::{crate_version, App, AppSettings, SubCommand};
+use clap::{crate_version, App, AppSettings, Arg, SubCommand};
 use webbrowser;
 
 fn main() {
@@ -8,18 +8,28 @@ fn main() {
         .subcommand(SubCommand::with_name("blog").about("Opens blog.shunkakinoki.com"))
         .subcommand(SubCommand::with_name("home").about("Opens shunkakinoki.com"))
         .subcommand(SubCommand::with_name("journal").about("Opens journal.shunkakinoki.com"))
+        .subcommand(SubCommand::with_name("pitch").about("Opens pitch.shunkakinoki.com"))
+        .subcommand(SubCommand::with_name("notebook").about("Opens notebook.shunkakinoki.com"))
         .subcommand(
             App::new("github")
                 .about("Opens github.com")
-                .setting(AppSettings::SubcommandRequiredElseHelp)
                 .subcommand(
-                    SubCommand::with_name("shunkakinoki").about("Opens shunkakinoki/shunkakinoki"),
+                    App::new("shunkakinoki")
+                        .about("Opens shunkakinoki/shunkakinoki")
+                        .arg(
+                            Arg::with_name("pull-request")
+                                .long("pr")
+                                .short("p")
+                                .required(false)
+                                .help("Go to PR"),
+                        )
+                        .setting(AppSettings::ArgRequiredElseHelp),
                 )
-                .subcommand(SubCommand::with_name("journal").about("Opens shunkakinoki/journal"))
-                .subcommand(SubCommand::with_name("website").about("Opens shunkakinoki/website"))
-                .subcommand(SubCommand::with_name("notebook").about("Opens shunkakinoki/notebook"))
-                .subcommand(SubCommand::with_name("pitch").about("Opens shunkakinoki/pitch"))
-                .subcommand(SubCommand::with_name("dotfiles").about("Opens shunkakinoki/dotfiles")),
+                .subcommand(App::new("journal").about("Opens shunkakinoki/journal"))
+                .subcommand(App::new("website").about("Opens shunkakinoki/website"))
+                .subcommand(App::new("notebook").about("Opens shunkakinoki/notebook"))
+                .subcommand(App::new("pitch").about("Opens shunkakinoki/pitch"))
+                .subcommand(App::new("dotfiles").about("Opens shunkakinoki/dotfiles")),
         )
         .setting(AppSettings::ArgRequiredElseHelp)
         .get_matches();
@@ -28,9 +38,16 @@ fn main() {
         ("blog", Some(_)) => if webbrowser::open("https://blog.shunkakinoki.com").is_ok() {},
         ("home", Some(_)) => if webbrowser::open("https://home.shunkakinoki.com").is_ok() {},
         ("journal", Some(_)) => if webbrowser::open("https://journal.shunkakinoki.com").is_ok() {},
+        ("pitch", Some(_)) => if webbrowser::open("https://pitch.shunkakinoki.com").is_ok() {},
+        ("notebook", Some(_)) => {
+            if webbrowser::open("https://notebook.shunkakinoki.com").is_ok() {}
+        }
         ("github", Some(github_matches)) => match github_matches.subcommand() {
-            ("shunkakinoki", Some(_)) => {
-                if webbrowser::open("https://github.com/shunkakinoki/shunkakinoki").is_ok() {};
+            ("shunkakinoki", Some(shunkakinoki_matches)) => {
+                if shunkakinoki_matches.is_present("pull-request")
+                    && webbrowser::open("https://github.com/shunkakinoki/shunkakinoki/pull").is_ok()
+                {
+                }
             }
             ("journal", Some(_)) => {
                 if webbrowser::open("https://github.com/shunkakinoki/journal").is_ok() {};
