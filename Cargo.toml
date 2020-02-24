@@ -1,0 +1,18 @@
+[package]
+name = "shunkakinoki"
+version = "0.1.0"
+authors = ["Shun Kakinoki <shunkakinoki@gmail.com>"]
+edition = "2018"
+license = "MIT"
+homepage = "https://github.com/shunkakinoki/shunkakinoki"
+description = "shunkakinoki"
+autobins = false
+include = ["shunkakinoki/**/*", "Cargo.toml"]
+
+[[bin]]
+name = "shunkakinoki"
+path = "shunkakinoki/main.rs"
+
+[dependencies]
+clap = "*"
+webbrowser = "*"
