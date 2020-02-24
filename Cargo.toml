@@ -14,5 +14,5 @@ name = "shunkakinoki"
 path = "shunkakinoki/main.rs"
 
 [dependencies]
-clap = "*"
-webbrowser = "*"
+clap = "2.33.0"
+webbrowser = "0.5.2"
