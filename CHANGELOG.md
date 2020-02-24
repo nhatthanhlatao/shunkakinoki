@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.2.0...v2.3.0) (2020-02-24)
+
+
+### Features
+
+* 🎸 rust-publish ([dfd0895](https://github.com/shunkakinoki/shunkakinoki/commit/dfd0895c44a8bafc31d4df4798f389a74ee1032a))
+
 # [2.2.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.1.0...v2.2.0) (2020-02-24)
 
 
