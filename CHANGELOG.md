@@ -1,3 +1,15 @@
+# [2.4.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.3.0...v2.4.0) (2020-02-24)
+
+
+### Bug Fixes
+
+* 🐛 continue ([fb90c16](https://github.com/shunkakinoki/shunkakinoki/commit/fb90c1621f0d6dc78a26aa4feb90c81afcb1f995))
+
+
+### Features
+
+* 🎸 cargo-fix ([315da15](https://github.com/shunkakinoki/shunkakinoki/commit/315da1593efd06a67b92f6f6d95c98462e9f45f6))
+
 # [2.3.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.2.0...v2.3.0) (2020-02-24)
 
 
