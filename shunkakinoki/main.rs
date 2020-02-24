@@ -10,15 +10,11 @@ fn main() {
         .subcommand(App::new("journal").about("Opens journal.shunkakinoki.com"))
         .get_matches();
 
-    if matches.is_present("blog") {
-        if webbrowser::open("https://blog.shunkakinoki.com").is_ok() {};
-    }
+    if matches.is_present("blog") && webbrowser::open("https://blog.shunkakinoki.com").is_ok() {}
 
-    if matches.is_present("home") {
-        if webbrowser::open("https://shunkakinoki.com").is_ok() {};
-    }
+    if matches.is_present("home") && webbrowser::open("https://shunkakinoki.com").is_ok() {}
 
-    if matches.is_present("journal") {
-        if webbrowser::open("https://journal.shunkakinoki.com").is_ok() {};
+    if matches.is_present("journal") && webbrowser::open("https://journal.shunkakinoki.com").is_ok()
+    {
     }
 }

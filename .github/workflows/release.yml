@@ -38,3 +38,18 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
         env:
           HUSKY_SKIP_HOOKS: 1
+  rust:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+      - name: Install clippy
+        run: rustup component add clippy
+      - name: Run cargo login
+        uses: actions-rs/cargo@v1
+        with:
+          command: login
+          args: ${{ secrets.CRATES_IO_TOKEN }}
