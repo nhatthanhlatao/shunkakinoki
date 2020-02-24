@@ -35,7 +35,7 @@ jobs:
       - name: Refactor Cargo.toml
         run: |
           version=$(node -pe "require('./package.json').version")
-          sed -i -e 's/^version = .*/version = "$version"/'
+          sed -i -e 's/^version = .*/version = "$version"/' Cargo.toml
       - name: Create a pull request if updated
         uses: peter-evans/create-pull-request@v2
         with:
