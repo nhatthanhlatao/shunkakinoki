@@ -55,5 +55,6 @@ jobs:
           args: ${{ secrets.CRATES_IO_TOKEN }}
       - name: Run cargo publish
         uses: actions-rs/cargo@v1
+        continue-on-error: true
         with:
           command: publish
