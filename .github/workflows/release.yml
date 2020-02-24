@@ -32,6 +32,10 @@ jobs:
       - name: Restore yarn.lock
         run: |
           git restore yarn.lock
+      - name: Refactor Cargo.toml
+        run: |
+          version = $(node -pe "require('./package.json').version")
+          sed -i -e 's/^version = .*/version = "$version"/'
       - name: Create a pull request if updated
         uses: peter-evans/create-pull-request@v2
         with:

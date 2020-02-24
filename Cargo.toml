@@ -16,3 +16,7 @@ path = "shunkakinoki/main.rs"
 [dependencies]
 clap = "2.33.0"
 webbrowser = "0.5.2"
+self_update = "0.13.0"
+
+[dev-dependencies]
+version-sync = "0.8"
