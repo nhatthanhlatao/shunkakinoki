@@ -1,3 +1,10 @@
+# [2.12.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.11.4...v2.12.0) (2020-02-25)
+
+
+### Features
+
+* 🎸 rust-patch ([d602a35](https://github.com/shunkakinoki/shunkakinoki/commit/d602a3551dcd7b5f91ad899350ea91ab9c474989))
+
 ## [2.11.3](https://github.com/shunkakinoki/shunkakinoki/compare/v2.11.2...v2.11.3) (2020-02-25)
 
 
