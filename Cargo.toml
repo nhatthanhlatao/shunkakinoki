@@ -1,6 +1,6 @@
 [package]
 name = "shunkakinoki"
-version = "2.11.4"
+version = "2.11.3"
 authors = ["Shun Kakinoki <shunkakinoki@gmail.com>"]
 edition = "2018"
 license = "MIT"
@@ -13,10 +13,14 @@ include = ["shunkakinoki/**/*", "Cargo.toml"]
 name = "shunkakinoki"
 path = "shunkakinoki/main.rs"
 
+[[test]]
+name = "shunkakinoki"
+path = "shunkakinoki/tests/main.rs"
+
 [dependencies]
 clap = "2.33.0"
+self_update = "0.13"
 webbrowser = "0.5.2"
-self_update = "0.13.0"
 
 [dev-dependencies]
 version-sync = "0.8"
