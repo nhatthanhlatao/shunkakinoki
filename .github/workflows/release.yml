@@ -50,8 +50,20 @@ jobs:
         with:
           toolchain: stable
           override: true
-      - name: Install clippy
-        run: rustup component add clippy
+      - name: Cache cargo
+        id: cache
+        uses: actions/cache@v1
+        with:
+          path: ~/.cargo
+          key: rust-${{ hashFiles('**/Cargo.lock') }}
+          restore-keys: |
+            rust-
+      - name: Install rust dependencies
+        uses: actions-rs/cargo@v1
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          rustup component add clippy
+          cargo update
       - name: Run cargo login
         uses: actions-rs/cargo@v1
         with:
