@@ -58,8 +58,8 @@ jobs:
           key: rust-${{ hashFiles('**/Cargo.lock') }}
           restore-keys: |
             rust-
+      - uses: actions-rs/cargo@v1
       - name: Install rust dependencies
-        uses: actions-rs/cargo@v1
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           rustup component add clippy
