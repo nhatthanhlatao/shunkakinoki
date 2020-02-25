@@ -1,3 +1,10 @@
+# [2.11.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.10.0...v2.11.0) (2020-02-25)
+
+
+### Features
+
+* 🎸 cargo ([452b95a](https://github.com/shunkakinoki/shunkakinoki/commit/452b95adb0133ade172db1719f3af9784668e33c))
+
 # [2.10.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.9.0...v2.10.0) (2020-02-25)
 
 
