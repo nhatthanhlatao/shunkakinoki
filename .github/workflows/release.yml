@@ -74,4 +74,5 @@ jobs:
         uses: actions-rs/cargo@v1
         continue-on-error: true
         with:
-          command: publish --allow-dirty
+          command: publish
+          args: --allow-dirty
