@@ -1,3 +1,10 @@
+## [2.11.3](https://github.com/shunkakinoki/shunkakinoki/compare/v2.11.2...v2.11.3) (2020-02-25)
+
+
+### Performance Improvements
+
+* ⚡️ 0224 ([dd744ac](https://github.com/shunkakinoki/shunkakinoki/commit/dd744ac0f28801888a9b9f84daaa3e5de090e59a))
+
 ## [2.11.2](https://github.com/shunkakinoki/shunkakinoki/compare/v2.11.1...v2.11.2) (2020-02-25)
 
 
