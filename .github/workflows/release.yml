@@ -50,17 +50,22 @@ jobs:
         with:
           toolchain: stable
           override: true
-      - name: Cache cargo
-        id: cache
+      - name: Cache cargo registry
         uses: actions/cache@v1
         with:
-          path: ~/.cargo
-          key: rust-${{ hashFiles('**/Cargo.lock') }}
-          restore-keys: |
-            rust-
-      - uses: actions-rs/cargo@v1
-      - name: Install rust dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
+          path: ~/.cargo/registry
+          key: rust-cargo-registry-${{ hashFiles('**/Cargo.lock') }}
+      - name: Cache cargo index
+        uses: actions/cache@v1
+        with:
+          path: ~/.cargo/git
+          key: rust-cargo-index-${{ hashFiles('**/Cargo.lock') }}
+      - name: Cache cargo build
+        uses: actions/cache@v1
+        with:
+          path: target
+          key: rust-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
+      - name: Run cargo login
         uses: actions-rs/cargo@v1
         with:
           command: login
@@ -69,4 +74,4 @@ jobs:
         uses: actions-rs/cargo@v1
         continue-on-error: true
         with:
-          command: publish
+          command: publish --allow-dirty
