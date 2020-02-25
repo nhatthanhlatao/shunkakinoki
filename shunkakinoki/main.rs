@@ -1,6 +1,8 @@
 use clap::{crate_version, App, AppSettings, Arg, SubCommand};
 use webbrowser;
 
+mod update;
+
 fn main() {
     let matches = App::new("shunkakinoki")
         .version(crate_version!())
@@ -10,6 +12,7 @@ fn main() {
         .subcommand(SubCommand::with_name("journal").about("Opens journal.shunkakinoki.com"))
         .subcommand(SubCommand::with_name("pitch").about("Opens pitch.shunkakinoki.com"))
         .subcommand(SubCommand::with_name("notebook").about("Opens notebook.shunkakinoki.com"))
+        .subcommand(SubCommand::with_name("update").about("Update shunkakinoki cli"))
         .subcommand(
             App::new("github")
                 .about("Opens github.com")
@@ -42,6 +45,7 @@ fn main() {
         ("notebook", Some(_)) => {
             if webbrowser::open("https://notebook.shunkakinoki.com").is_ok() {}
         }
+        // ("update", Some(_)) => update::update(),
         ("github", Some(github_matches)) => match github_matches.subcommand() {
             ("shunkakinoki", Some(shunkakinoki_matches)) => {
                 if shunkakinoki_matches.is_present("pull-request")
