@@ -1,3 +1,15 @@
+# [2.10.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.9.0...v2.10.0) (2020-02-25)
+
+
+### Bug Fixes
+
+* 🐛 cargo ([4231e7b](https://github.com/shunkakinoki/shunkakinoki/commit/4231e7bcd14e15cae8b4d62316977940717b9ca2))
+
+
+### Features
+
+* 🎸 cargo-cache ([99cc606](https://github.com/shunkakinoki/shunkakinoki/commit/99cc6069aad96eaeeab69ff547abdfb2bfa73b0b))
+
 # [2.8.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.7.0...v2.8.0) (2020-02-24)
 
 
