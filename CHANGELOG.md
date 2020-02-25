@@ -1,3 +1,10 @@
+## [2.11.1](https://github.com/shunkakinoki/shunkakinoki/compare/v2.11.0...v2.11.1) (2020-02-25)
+
+
+### Bug Fixes
+
+* 🐛 args ([20995e6](https://github.com/shunkakinoki/shunkakinoki/commit/20995e61ed012fea4d07214e908e39d9013373fa))
+
 # [2.11.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.10.0...v2.11.0) (2020-02-25)
 
 
