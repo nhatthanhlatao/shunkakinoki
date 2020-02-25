@@ -61,10 +61,6 @@ jobs:
       - uses: actions-rs/cargo@v1
       - name: Install rust dependencies
         if: steps.cache.outputs.cache-hit != 'true'
-        run: |
-          rustup component add clippy
-          cargo update
-      - name: Run cargo login
         uses: actions-rs/cargo@v1
         with:
           command: login
