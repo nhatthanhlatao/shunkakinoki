@@ -12,7 +12,14 @@ fn main() {
         .subcommand(SubCommand::with_name("journal").about("Opens journal.shunkakinoki.com"))
         .subcommand(SubCommand::with_name("pitch").about("Opens pitch.shunkakinoki.com"))
         .subcommand(SubCommand::with_name("notebook").about("Opens notebook.shunkakinoki.com"))
-        .subcommand(SubCommand::with_name("update").about("Update shunkakinoki cli"))
+        .subcommand(
+            App::new("update").about("Update shunkakinoki cli").arg(
+                Arg::with_name("list")
+                    .short("l")
+                    .long("list")
+                    .help("Sets a custom config file"),
+            ),
+        )
         .subcommand(
             App::new("github")
                 .about("Opens github.com")
@@ -26,7 +33,13 @@ fn main() {
                                 .required(false)
                                 .help("Go to PR"),
                         )
-                        .setting(AppSettings::ArgRequiredElseHelp),
+                        .arg(
+                            Arg::with_name("actions")
+                                .long("act")
+                                .short("a")
+                                .required(false)
+                                .help("Go to Actions"),
+                        ),
                 )
                 .subcommand(App::new("journal").about("Opens shunkakinoki/journal"))
                 .subcommand(App::new("website").about("Opens shunkakinoki/website"))
@@ -45,12 +58,21 @@ fn main() {
         ("notebook", Some(_)) => {
             if webbrowser::open("https://notebook.shunkakinoki.com").is_ok() {}
         }
-        // ("update", Some(_)) => update::update(),
+        ("update", Some(update_matches)) => {
+            if update_matches.is_present("list") && update::list().is_ok() {
+            } else if update::update().is_ok() {
+            }
+        }
         ("github", Some(github_matches)) => match github_matches.subcommand() {
             ("shunkakinoki", Some(shunkakinoki_matches)) => {
                 if shunkakinoki_matches.is_present("pull-request")
                     && webbrowser::open("https://github.com/shunkakinoki/shunkakinoki/pull").is_ok()
                 {
+                } else if shunkakinoki_matches.is_present("actions")
+                    && webbrowser::open("https://github.com/shunkakinoki/shunkakinoki/actions")
+                        .is_ok()
+                {
+                } else if webbrowser::open("https://github.com/shunkakinoki/shunkakinoki").is_ok() {
                 }
             }
             ("journal", Some(_)) => {
