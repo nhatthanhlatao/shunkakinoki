@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/shunkakinoki/shunkakinoki/compare/v3.0.0...v4.0.0) (2020-02-26)
+
+
+### Features
+
+* 🎸 0226 ([1c9487b](https://github.com/shunkakinoki/shunkakinoki/commit/1c9487bd5c001d5ed9ff599946f95e9e22e5f238))
+
+
+### BREAKING CHANGES
+
+* 🧨 rust
+
 # [2.12.0](https://github.com/shunkakinoki/shunkakinoki/compare/v2.11.4...v2.12.0) (2020-02-25)
 
 
