@@ -1,3 +1,11 @@
+## [4.0.4](https://github.com/shunkakinoki/shunkakinoki/compare/v4.0.3...v4.0.4) (2020-02-27)
+
+
+### Performance Improvements
+
+* ⚡️ 0227 ([6d7c393](https://github.com/shunkakinoki/shunkakinoki/commit/6d7c3935d7e9cf2c906ca205d650fabdec5d17d6))
+* ⚡️ init-0226 ([2e5285f](https://github.com/shunkakinoki/shunkakinoki/commit/2e5285f53d19a2a59d1c25b78238417164f878cf))
+
 ## [4.0.1](https://github.com/shunkakinoki/shunkakinoki/compare/v4.0.0...v4.0.1) (2020-02-26)
 
 
