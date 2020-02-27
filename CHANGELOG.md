@@ -1,3 +1,10 @@
+## [4.0.6](https://github.com/shunkakinoki/shunkakinoki/compare/v4.0.5...v4.0.6) (2020-02-27)
+
+
+### Bug Fixes
+
+* 🐛 0227 ([97a428e](https://github.com/shunkakinoki/shunkakinoki/commit/97a428ebecb0c5e984ed10b0ea31cf277161ec5d))
+
 ## [4.0.5](https://github.com/shunkakinoki/shunkakinoki/compare/v4.0.4...v4.0.5) (2020-02-27)
 
 
