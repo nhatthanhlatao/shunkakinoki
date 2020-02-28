@@ -16,6 +16,7 @@
         "tab.activeBorder": "#1accff"
     },
     "peacock.color": "#00b3e6",
+    "editor.wordWrap": "on",
     "cSpell.enabled": true,
     "cSpell.words": [
         "AWSCOST",
