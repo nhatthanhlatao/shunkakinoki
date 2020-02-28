@@ -1,10 +1,3 @@
-# [4.2.0](https://github.com/shunkakinoki/shunkakinoki/compare/v4.1.0...v4.2.0) (2020-02-28)
-
-
-### Features
-
-* 🎸 book ([baf975f](https://github.com/shunkakinoki/shunkakinoki/commit/baf975fc422cfab2ac95470e586bf62ea3b25bf6))
-
 # [4.1.0](https://github.com/shunkakinoki/shunkakinoki/compare/v4.0.6...v4.1.0) (2020-02-27)
 
 
