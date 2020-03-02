@@ -1,3 +1,10 @@
+## [4.5.2](https://github.com/shunkakinoki/shunkakinoki/compare/v4.5.1...v4.5.2) (2020-03-02)
+
+
+### Performance Improvements
+
+* ⚡️ 0303 ([564aa9c](https://github.com/shunkakinoki/shunkakinoki/commit/564aa9c2a0ac33f309429b01591dc0b7f3375f7e))
+
 ## [4.5.1](https://github.com/shunkakinoki/shunkakinoki/compare/v4.5.0...v4.5.1) (2020-03-02)
 
 
