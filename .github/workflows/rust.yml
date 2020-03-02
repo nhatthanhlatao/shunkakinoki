@@ -9,9 +9,6 @@ jobs:
         with:
           toolchain: stable
           override: true
-      - name: Chmod cargo registry
-        run: |
-          sudo chmod -R a+rwx ~/.cargo/registry
       - name: Cache cargo registry
         uses: actions/cache@v1
         with:
