@@ -1,30 +1,34 @@
-import addToMailchimp from "gatsby-plugin-mailchimp";
-import React, { useState } from "react";
+import addToMailchimp from 'gatsby-plugin-mailchimp';
+import React, { useState } from 'react';
 
-import Section from "@narative/gatsby-theme-novela/src/components/Section";
-import Headings from "@narative/gatsby-theme-novela/src/components/Headings";
+import Section from '@narative/gatsby-theme-novela/src/components/Section';
+import Headings from '@narative/gatsby-theme-novela/src/components/Headings';
 
-import styled from "@emotion/styled";
-import mediaqueries from "@narative/gatsby-theme-novela/src/styles/media";
+import styled from '@emotion/styled';
+import mediaqueries from '@narative/gatsby-theme-novela/src/styles/media';
 
 const Subscription: React.FunctionComponent<{}> = () => {
-  const [email, setEmail] = useState("");
-  const [error, setError] = useState("");
+  const [email, setEmail] = useState('');
+  const [error, setError] = useState('');
   const [subscribed, setSubscribed] = useState(false);
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    addToMailchimp(email, {
+    addToMailchimp(
+      email,
+      {
         'group[67373]': '1',
-    }, null)
+      },
+      null,
+    )
       .then(data => {
-        if (data.result === "error") {
+        if (data.result === 'error') {
           throw data;
         }
 
         setSubscribed(true);
-        setEmail("");
+        setEmail('');
 
         setTimeout(() => {
           setSubscribed(false);
@@ -37,7 +41,7 @@ const Subscription: React.FunctionComponent<{}> = () => {
 
   function handleEmailChange(event: React.ChangeEvent<HTMLInputElement>) {
     setEmail(event.currentTarget.value);
-    setError("");
+    setError('');
   }
 
   return (
@@ -48,7 +52,9 @@ const Subscription: React.FunctionComponent<{}> = () => {
             Join my email list and get notified about new content
           </Headings.h3>
           <Text>
-            By entering your email and clicking on the Subscribe button, you give your permission to be contacted about new content on this website via Email.
+            By entering your email and clicking on the Subscribe button, you
+            give your permission to be contacted about new content on this
+            website via Email.
           </Text>
           <Form onSubmit={handleSubmit} hasError={error}>
             <Input
@@ -65,7 +71,7 @@ const Subscription: React.FunctionComponent<{}> = () => {
               subscribed={subscribed}
               disabled={subscribed}
             >
-              {subscribed ? <CheckMarkIcon /> : "Subscribe"}
+              {subscribed ? <CheckMarkIcon /> : 'Subscribe'}
             </Button>
             {error && <Error dangerouslySetInnerHTML={{ __html: error }} />}
           </Form>
@@ -130,7 +136,7 @@ const Form = styled.form<{ hasError: string }>`
   position: relative;
 
   &::after {
-    content: ">";
+    content: '>';
     position: absolute;
     left: 21px;
     top: 10px;
@@ -188,7 +194,7 @@ const Button = styled.button<{ hasError: string; subscribed: boolean }>`
   border: 1px solid
     ${p => (p.hasError ? p.theme.colors.error : p.theme.colors.accent)};
   color: ${p => (p.hasError ? p.theme.colors.error : p.theme.colors.accent)};
-  background: ${p => (p.subscribed ? p.theme.colors.accent : "transparent")};
+  background: ${p => (p.subscribed ? p.theme.colors.accent : 'transparent')};
   font-weight: 600;
   border-radius: 35px;
   letter-spacing: 0.42px;
