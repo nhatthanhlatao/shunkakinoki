@@ -1,3 +1,10 @@
+# [4.4.0](https://github.com/shunkakinoki/shunkakinoki/compare/v4.3.0...v4.4.0) (2020-03-02)
+
+
+### Features
+
+* 🎸 0301 ([c12268b](https://github.com/shunkakinoki/shunkakinoki/commit/c12268bebdc9e7e908c79cd00549c439a3781aa7))
+
 # [4.3.0](https://github.com/shunkakinoki/shunkakinoki/compare/v4.2.2...v4.3.0) (2020-03-02)
 
 
