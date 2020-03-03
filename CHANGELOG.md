@@ -1,3 +1,10 @@
+## [4.6.1](https://github.com/shunkakinoki/shunkakinoki/compare/v4.6.0...v4.6.1) (2020-03-03)
+
+
+### Bug Fixes
+
+* **deps:** bump self_update from 0.13.0 to 0.14.0 ([786c072](https://github.com/shunkakinoki/shunkakinoki/commit/786c072df8672f0464cff6ea2e2bb4bd697456a1))
+
 # [4.6.0](https://github.com/shunkakinoki/shunkakinoki/compare/v4.5.2...v4.6.0) (2020-03-03)
 
 
